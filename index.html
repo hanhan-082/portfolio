@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
   <meta property='og:type' content='website'>
-  <meta property='og:title' content='WebデザイナーTARO YAMADA ポートフォリオ'>
+  <meta property='og:title' content='TATSUYA KAWAJIRI ポートフォリオ'>
   <meta property='og:url' content='URLが入る'>
-  <meta property='og:description' content='Webデザイナー TARO YAMADAのポートフォリオサイトです！'>
+  <meta property='og:description' content=' TATSUYA KAWAJIRIのポートフォリオサイトです！'>
   <meta property="og:image" content="img/ogp.png">
-  <meta name="description" content="Webデザイナー TARO YAMADAのポートフォリオサイトです！" />
-  <title>Webデザイナー TARO YAMADA ポートフォリオ</title>
+  <meta name="description" content=" TATSUYA KAWAJIRIのポートフォリオサイトです！" />
+  <title> TATSUYA KAWAJIRI ポートフォリオ</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
   <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
@@ -26,7 +26,7 @@
     <nav class="gnav" class="fixed">
       <ul class="gnav-list">
         <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li>
-        <li class="gnav-item"><a class="gnav-link" href="#feature-section">FEATURE</a></li>
+       <!-- <li class="gnav-item"><a class="gnav-link" href="#feature-section">FEATURE</a></li> -->
         <li class="gnav-item"><a class="gnav-link" href="#about-section">ABOUT</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#skill-section">SKILL</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
@@ -37,7 +37,7 @@
     <!-- .header -->
     <header class="header">
       <h1 class="logo">
-        <div class="logo-title">TARO YAMADA</div>
+        <div class="logo-title">TATSUYA KAWAJIRI</div>
         <div class="logo-subtitle">PORTFOLIO</div>
       </h1>
     </header>
@@ -52,82 +52,61 @@
             <h2 class="heading-primary">WORKS</h2>
           </div>
           <div class="section-lead">
-            <p>Web（デザインとコーディング）制作の記録です。<br>デザイン練習用の架空サイト（ファーストビューのみ）も含んでおります。</p>
+            <p>RPAにて制作した業務自動化ロボットの紹介です。使用ツールは「bizrobo!」です。</p>
           </div>
           <div class="section-body works">
             <div class="works-list js-my-gallery">
               <figure class="works-item">
-                <a href="img/works/company.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                <a href="img/works/company.jpg" data-size="960x600" class="works-image-wrapper works-link hover-action">
                   <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/company.jpg"
                     alt="" />
                 </a>
                 <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design / Coding(Responsive) / WordPress</div>
-                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
-                  </div>
+                  <div class="works-title">契約書のデータ取り込み・ERPシステムへの登録</div>
+                  <div class="works-text"><b>内容：</b>Excelベースの契約書をロボットで取り込み、その情報をERPシステム（OBIC）へ転記して自動登録する。<br>
+		登録が完了したら完了した旨のメールを送信する。<br>
+		<b>効果：</b>２人日～３人日/月<br>
+		定型的な作業で１件当たり２０分程度と時間もかかるため自動化。<br>
+		<b>苦労した点：</b>ERPシステムへ登録時に契約金額の税額部分がずれてしまう場合があり、その帳尻を合わせる処理に苦心した。</div>
                 </figcaption>
               </figure>
               <figure class="works-item">
-                <a href="img/works/hairsalon.jpg" data-size="960x720"
+                <a href="img/works/hairsalon.jpg" data-size="960x200"
                   class="works-image-wrapper works-link hover-action">
                   <img class="works-image lazyload fadein" src="img/placeholder4x3.png"
                     data-src="img/works/hairsalon.jpg" alt="" />
                 </a>
                 <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design / Coding(Responsive) </div>
-                  <div class="works-url"><a class="works-url-link" href="https://yahoo.co.jp" target="_blank">Link</a>
-                  </div>
+                  <div class="works-title">ERPシステムより勘定科目データ抜出・整理</div>
+                  <div class="works-text"><b>内容：</b>ERPシステム（OBIC）より必要なデータをエクスポートし、適当な形で整形しExcelファイルにする。<br>
+		登録が完了したら完了した旨のメールを送信する。<br>
+		<b>効果：</b>２人日～３人日/四半期<br>
+		定型的な作業で四半期ごとに発生するものではあるが、繁忙期かつ時間もかかるため自動化。<br>
+		<b>苦労した点：</b>経理知識がほとんどなく、要件を理解するところから始めた点。</div>
                 </figcaption>
               </figure>
               <figure class="works-item">
-                <a href="img/works/girly.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
+                <a href="img/works/girly.jpg" data-size="960x600" class="works-image-wrapper works-link hover-action">
                   <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/girly.jpg"
                     alt="" />
                 </a>
                 <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
+                  <div class="works-title">全部署の仕訳確認・ERPシステムへの登録</div>
+                  <div class="works-text"><b>内容：</b>全部署の仕訳を確認し、当月にERPシステムへ登録の必要があるものは自動で登録する。<br>
+		登録が完了したら完了した旨のメールを送信する。<br>
+		<b>効果：</b>２人日～３人日/月<br>
+		これまでは経理担当者が仕訳部署の担当者へ通知し、仕訳担当者が仕分け作業を実施していたが、その作業がすべてカットできた。<br>
+		<b>苦労した点：</b>仕訳リストから部署ごとに仕分け情報を登録するが、RPAツールの繰り返し処理に癖があり処理ロジックを組むのが難しかった。</div>
                 </figcaption>
               </figure>
-              <figure class="works-item">
-                <a href="img/works/school.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/school.jpg"
-                    alt="" />
-                </a>
-                <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
-                </figcaption>
-              </figure>
-              <figure class="works-item">
-                <a href="img/works/game.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/game.jpg"
-                    alt="" />
-                </a>
-                <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
-                </figcaption>
-              </figure>
-              <figure class="works-item">
-                <a href="img/works/fashion.jpg" data-size="960x720" class="works-image-wrapper works-link hover-action">
-                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/fashion.jpg"
-                    alt="" />
-                </a>
-                <figcaption class="works-body">
-                  <div class="works-title">サイト名が入る</div>
-                  <div class="works-text">Design</div>
-                </figcaption>
-              </figure>
+              
             </div>
           </div>
         </div>
       </section>
       <!-- /.works-section -->
 
-      <!-- .feature-section -->
+      <!-- .feature-section 
       <section class="feature-section section" id="feature-section">
         <div class="inner">
           <div class="section-heading">
@@ -159,7 +138,7 @@
           </div>
         </div>
       </section>
-      <!-- /.feature-section -->
+       /.feature-section -->
 
       <!-- .about-section -->
       <section class="about-section section" id="about-section">
@@ -174,15 +153,15 @@
           </div>
           <div class="section-body about">
             <div class="about-item">
-              <div class="about-image-wrapper">
+            <!--  <div class="about-image-wrapper">
                 <img class="about-image lazyload fadein" data-src="img/about/profile.jpg" alt="">
-              </div>
+              </div>　-->
               <div class="about-body">
                 <p>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-                <p>
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+			・名前：Tatsuya Kawajiri<br>
+			・出身：神奈川県（現在は東京都在住）<br>
+			・経歴：新卒で中小企業のSIerに所属。幅広く経験し、その後ハウスメーカーにて社内SEを経験<br>
+			・その他：野球観戦が好きで、年に数回は現地観戦に行きます。好きなチームは横浜<br>
                 </p>
               </div>
             </div>
@@ -199,89 +178,89 @@
           </div>
           <div class="section-lead">
             <p>
-              未経験ですが頑張ります！
+              スキルリストです。
             </p>
           </div>
           <div class="section-body skill">
             <div class="skill-list">
               <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
+                <div class="skill-body">
+                  <h3 class="skill-title">RPA</h3>
+                  <p>
+                    上記業務自動化システムでbizrobo!を利用していました。
+			ERPシステム関連での自動化案件が多かったので、その分野については自信があります。</p>
                 </div>
+              </div>
+              <div class="skill-item">
                 <div class="skill-body">
                   <h3 class="skill-title">HTML5/CSS3</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate4"></div>
-                  </div>
                   <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    テンプレートを利用しWebサイトの作成・編集が可能です。
+			当サイトもこの技術で作成されています。</p>
                 </div>
               </div>
               <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
                 <div class="skill-body">
                   <h3 class="skill-title">JavaScript</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate3"></div>
-                  </div>
                   <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    簡単な処理ロジックを組むことが可能です。</p>
                 </div>
               </div>
               <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
                 <div class="skill-body">
-                  <h3 class="skill-title">WordPress</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate4"></div>
-                  </div>
+                  <h3 class="skill-title">objective-c / swift</h3>
                   <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    iOSアプリを作成するのに必要な技術です。
+			フロントエンドの部分を経験しております。</p>
                 </div>
               </div>
               <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
                 <div class="skill-body">
-                  <h3 class="skill-title">Photoshop</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate4"></div>
-                  </div>
+                  <h3 class="skill-title">Java</h3>
                   <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    学生時代に学習していた言語です。
+			機会があればまた勉強していきたいです。</p>
                 </div>
               </div>
               <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
                 <div class="skill-body">
-                  <h3 class="skill-title">Illustrator</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate3"></div>
-                  </div>
+                  <h3 class="skill-title">Officeツール</h3>
                   <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    Word ExcelなどのOfficeツールのレクチャー、問い合わせ対応を行っていました。
+			</p>
                 </div>
               </div>
               <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
                 <div class="skill-body">
-                  <h3 class="skill-title">XD</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate3"></div>
-                  </div>
+                  <h3 class="skill-title">Windows server</h3>
                   <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                    ファイルサーバやADサーバの管理・運用を行っていました。
+			AWSのインスタンス作成、作成後のサーバ初期設定の経験もあります。</p>
                 </div>
               </div>
+              <div class="skill-item">
+                <div class="skill-body">
+                  <h3 class="skill-title">DB</h3>
+                  <p>
+                    MySQLやpostgreSQLにてデータ抽出等の実務経験があります。</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-body">
+                  <h3 class="skill-title">その他ツール（管理・運用）</h3>
+                  <p>
+                    ・FileMaker<br>
+			・Zoom<br>
+			・ActionPassport（ワークフローシステム）<br>
+			・Dr.Sum（BIツール）<br>
+			・OBIC（ERPシステム）<br>
+			・git, SVN（ソースコード管理）<br>
+			・SkyDesk Cards R（名刺管理システム）<br>
+			・Skysea（IT資産管理システム）<br>
+			</p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -296,11 +275,11 @@
           </div>
           <div class="section-lead">
             <p>
-              お問い合わせは、<br class="sp-only">SNSかメールでお願いいたします。
+              お問い合わせは、<br class="sp-only">メールでお願いいたします。
             </p>
           </div>
           <div class="section-body contact">
-            <ul class="contact-list">
+           <!-- <ul class="contact-list">
               <li class="contact-item">
                 <a class="contact-link" href="https://twitter.com/" target="_blank"><img class="contact-image"
                     src="img/contact/icon_tw.png" alt=""></a>
@@ -309,8 +288,8 @@
                 <a class="contact-link" href="https://www.facebook.com/" target="_blank"><img class="contact-image"
                     src="img/contact/icon_fb.png" alt=""></a>
               </li>
-            </ul>
-            <div class="contact-text">xxxxxx@gmail.com</div>
+            </ul> -->
+            <div class="contact-text">hanhanhaaan@yahoo.co.jp</div>
           </div>
         </div>
       </section>
@@ -324,7 +303,7 @@
         トップへもどる
       </div>
       <div class="inner">
-        <div class="copyright">Copyright&copy;TARO YAMADA. All Rights Reserved.</div>
+        <div class="copyright">Copyright&copy;TATSUYA KAWAJIRI. All Rights Reserved.</div>
       </div>
     </footer>
     <!-- /.footer -->

@@ -219,17 +219,17 @@ li {
 }
 
 .works-body {
-  text-align: center;
+  text-align: left;
 }
 
 .works-title {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   margin-top: 8px;
 }
 
 .works-text {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .works-url {
